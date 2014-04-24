@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<h1><strong>Floral Shop - Select One: </strong></h1>
+<p><input type="radio" name="radio" id="radio" value="radio" /> 
+Red Roses (value = 2)</p>
+<p><input type="radio" name="radio" id="radio" value="radio" /> 
+Carnations (value = 3)</p>
+<p><input type="radio" name="radio" id="radio" value="radio" /> 
+Daisies (value = 4)</p>
+<p><input type="radio" name="radio" id="radio" value="radio" /> 
+Yellow Roses (value = 1)</p>
+<p>&nbsp;</p>
+<p><a href="combo.html">SUBMIT</a></p>
+<p>&nbsp;</p>
+<p>The player should be able to select 1 of the 4 options via a SUBMIT button. Once the player hits the submit button, it should take him to either a customized acknowledgement page or the &quot;end.html&quot; page. If the player has completed 5 errands or less from the home page, then he should be directed to a customized acknowledgement  page (where he is allowed to click a button to continuing playing). Once he completes 5  errands, he should be directed to the &quot;end.html&quot; page, instead of the customized acknowledgment page.</p>
+<p>The game must keep track of the points/numerial values choosen by the player and then total up the points/numerial values at the end and display the final number. </p>
+<p>&nbsp;</p>
+<p><a href="index.html">Start a New Game</a><br />
+(The &quot;Start a New Game&quot; link/button should take the player back to the home page, but it needs to clear/reset the game back to zero points so the player can start again with a clean slate.)</p>
+<p></p>
+</body>
+</html>

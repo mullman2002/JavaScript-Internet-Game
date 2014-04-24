@@ -1,0 +1,16 @@
+<html>
+   <head>
+      <title>JS Tester</title>
+ <script type="text/javascript" src="file:///home/steve/Desktop/JavaScript/websiteHTML/JStest.js">  
+
+ </script>	
+   </head>
+   <body>
+   <h1>Page Two</h1>
+   <a href="file:///home/steve/Desktop/JavaScript/JStest.html" onclick="link_clicked()">link</a>
+   <script>
+      print_storage();
+   </script>
+   <button onclick="set_init_values()">reset</button>
+   </body>
+</html>

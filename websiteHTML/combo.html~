@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<script type="text/javascript" src="JStest.js"></script>
+</head>
+
+<body>
+<script>
+   if(parseInt(localStorage["count"]) >= 5)
+   {
+   window.location.href = "endpage.html";
+   }
+</script>
+<h1><strong>Acknowledgement Page or End page</strong></h1>
+<p>This page should either be a  page that acknowledges the player's choice i.e. suit.html, flipflop.html, tracksuit.html, etc. or it should be the &quot;end.html&quot; page. It all depends on whether the player has completed 5 choices/errands from the home page yet or not. </p>
+<p>&nbsp;</p>
+<p><strong>If the player has not completed 5 choices, then he gets directed to a customized acknowledgement page, which says:</strong></p>
+<p>Thank you for your order. <a href="index.html">Complete  Another Errand</a></p>
+<p>There are about 36 various choices that the player can make, so we were going to make 36 html pages that  acknowledge the player's choice i.e. suit.html, flipflop.html, casual.html, etc. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>If the player has completed 5 choices/errands, then the  player goes to the &quot;end.html&quot; page. </strong></p>
+<p>On the &quot;end.html&quot; page, the total number of points must be displayed, such as:. </p>
+<p>Your Points: ______</p>
+<p><a href="index.html" onclick="set_init_values()">Play Again</a></p>
+<p>(The &quot;Play Again&quot; button at the &quot;end.html&quot; page should go back to the home page, but it needs to clear/reset the game back to zero points so the player can start again with a clean slate).</p>
+<p></p>
+</body>
+</html>
